@@ -16,7 +16,7 @@ function rightBitshift(binary) {
 
     return shifted;
 }   //print results
-    let OriginalBinary = '1010011';
+    let OriginalBinary = '1010011'; //enter 8 bit binary here
     console.log("original binary: ", OriginalBinary);
     let shiftedBinary = rightBitshift(OriginalBinary);
     console.log("shifted binary: ", shiftedBinary);
